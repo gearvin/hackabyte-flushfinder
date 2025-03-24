@@ -1,12 +1,16 @@
 import { Key } from "react";
-import { GC_API_KEY, MAP_ID, unsw, bathrooms } from '../constants';
+import { unsw, bathrooms } from '../constants';
 import { Map, AdvancedMarker, Pin, APIProvider, MapCameraChangedEvent} from "@vis.gl/react-google-maps";
 
+const GM_API_KEY = import.meta.env.VITE_GM_API_KEY;
+const GM_MAP_ID = import.meta.env.VITE_GM_FLUSHFINDER_MAP_ID;
+
 function NearMeMap() {
+  console.log(import.meta.env);
   return (
-        <APIProvider apiKey={GC_API_KEY} onLoad={() => console.log('Maps API has loaded.')}>
+        <APIProvider apiKey={GM_API_KEY} onLoad={() => console.log(`Maps API has loaded`)}>
         <Map
-          mapId={MAP_ID}
+          mapId={GM_MAP_ID}
           defaultZoom={15}
           defaultCenter={unsw}
           onCameraChanged={ (ev: MapCameraChangedEvent) =>
