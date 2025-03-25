@@ -10,8 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@googlemaps/react-wrapper": "^1.1.42",
     "@tailwindcss/vite": "^4.0.15",
+<<<<<<< HEAD
     "lucide-react": "^0.483.0",
+=======
+    "@vis.gl/react-google-maps": "^1.5.2",
+>>>>>>> 7368c76405c30e2c3d61087e3d94a096b79573a8
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^7.4.0",

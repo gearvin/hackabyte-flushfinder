@@ -1,0 +1,442 @@
+[
+    {
+        "id": 906,
+        "name": "Anita B. Lawrence Centre (H13)",
+        "male_toilets_count": 11,
+        "female_toilets_count": 10,
+        "unisex_toilet_count": 11,
+        "total_count": 32
+    },
+    {
+        "id": 907,
+        "name": "Mathews (F23)",
+        "male_toilets_count": 30,
+        "female_toilets_count": 27,
+        "unisex_toilet_count": 10,
+        "total_count": 67
+    },
+    {
+        "id": 1002189,
+        "name": "Chancellery (C22)",
+        "male_toilets_count": 0,
+        "female_toilets_count": 0,
+        "unisex_toilet_count": 0,
+        "total_count": 0
+    },
+    {
+        "id": 1002191,
+        "name": "Wallace Wurth (C27)",
+        "male_toilets_count": 10,
+        "female_toilets_count": 10,
+        "unisex_toilet_count": 9,
+        "total_count": 29
+    },
+    {
+        "id": 1002192,
+        "name": "Science and Engineering Building",
+        "male_toilets_count": 16,
+        "female_toilets_count": 16,
+        "unisex_toilet_count": 9,
+        "total_count": 41
+    },
+    {
+        "id": 1002231,
+        "name": "Clancy Auditorium (C24)",
+        "male_toilets_count": 2,
+        "female_toilets_count": 3,
+        "unisex_toilet_count": 2,
+        "total_count": 7
+    },
+    {
+        "id": 1004168,
+        "name": "Chemical Sciences (F10)",
+        "male_toilets_count": 16,
+        "female_toilets_count": 15,
+        "unisex_toilet_count": 10,
+        "total_count": 41
+    },
+    {
+        "id": 1004169,
+        "name": "Dalton (F12)",
+        "male_toilets_count": 2,
+        "female_toilets_count": 1,
+        "unisex_toilet_count": 1,
+        "total_count": 4
+    },
+    {
+        "id": 1004170,
+        "name": "Law Building (F8)",
+        "male_toilets_count": 12,
+        "female_toilets_count": 16,
+        "unisex_toilet_count": 8,
+        "total_count": 36
+    },
+    {
+        "id": 1004171,
+        "name": "Squarehouse (E4)",
+        "male_toilets_count": 7,
+        "female_toilets_count": 8,
+        "unisex_toilet_count": 1,
+        "total_count": 16
+    },
+    {
+        "id": 1004172,
+        "name": "Science Theatre (F13)",
+        "male_toilets_count": 7,
+        "female_toilets_count": 8,
+        "unisex_toilet_count": 2,
+        "total_count": 17
+    },
+    {
+        "id": 1004173,
+        "name": "Blockhouse (G6)",
+        "male_toilets_count": 2,
+        "female_toilets_count": 5,
+        "unisex_toilet_count": 1,
+        "total_count": 8
+    },
+    {
+        "id": 1004174,
+        "name": "Hilmer Building (E10)",
+        "male_toilets_count": 10,
+        "female_toilets_count": 10,
+        "unisex_toilet_count": 9,
+        "total_count": 29
+    },
+    {
+        "id": 1004176,
+        "name": "AGSM (G27)",
+        "male_toilets_count": 6,
+        "female_toilets_count": 8,
+        "unisex_toilet_count": 3,
+        "total_count": 17
+    },
+    {
+        "id": 1004187,
+        "name": "Robert Webster",
+        "male_toilets_count": 4,
+        "female_toilets_count": 4,
+        "unisex_toilet_count": 4,
+        "total_count": 12
+    },
+    {
+        "id": 1004188,
+        "name": "Robert Webster Theatres (G15)",
+        "male_toilets_count": 0,
+        "female_toilets_count": 0,
+        "unisex_toilet_count": 0,
+        "total_count": 0
+    },
+    {
+        "id": 1004189,
+        "name": "Electrical Engineering (G17)",
+        "male_toilets_count": 10,
+        "female_toilets_count": 13,
+        "unisex_toilet_count": 10,
+        "total_count": 33
+    },
+    {
+        "id": 1004190,
+        "name": "Rex Vowels Theatre",
+        "male_toilets_count": 0,
+        "female_toilets_count": 0,
+        "unisex_toilet_count": 1,
+        "total_count": 1
+    },
+    {
+        "id": 1004191,
+        "name": "Pat OShane Lecture Block (E19)",
+        "male_toilets_count": 1,
+        "female_toilets_count": 1,
+        "unisex_toilet_count": 2,
+        "total_count": 4
+    },
+    {
+        "id": 1004193,
+        "name": "Goodsell (F20)",
+        "male_toilets_count": 8,
+        "female_toilets_count": 7,
+        "unisex_toilet_count": 2,
+        "total_count": 17
+    },
+    {
+        "id": 1004194,
+        "name": "John Niland Scientia (G19)",
+        "male_toilets_count": 1,
+        "female_toilets_count": 2,
+        "unisex_toilet_count": 2,
+        "total_count": 5
+    },
+    {
+        "id": 1004195,
+        "name": "Civil Engineering (H20)",
+        "male_toilets_count": 7,
+        "female_toilets_count": 5,
+        "unisex_toilet_count": 1,
+        "total_count": 13
+    },
+    {
+        "id": 1004541,
+        "name": "Library (F21)",
+        "male_toilets_count": 16,
+        "female_toilets_count": 22,
+        "unisex_toilet_count": 8,
+        "total_count": 46
+    },
+    {
+        "id": 1004731,
+        "name": "University Terraces (B8)",
+        "male_toilets_count": 1,
+        "female_toilets_count": 1,
+        "unisex_toilet_count": 1,
+        "total_count": 3
+    },
+    {
+        "id": 1004733,
+        "name": "Roundhouse (E6)",
+        "male_toilets_count": 5,
+        "female_toilets_count": 7,
+        "unisex_toilet_count": 3,
+        "total_count": 15
+    },
+    {
+        "id": 1004734,
+        "name": "Esme Timbery Creative Practice Lab (D8)",
+        "male_toilets_count": 2,
+        "female_toilets_count": 4,
+        "unisex_toilet_count": 2,
+        "total_count": 8
+    },
+    {
+        "id": 1004736,
+        "name": "UNSW Business School (E12)",
+        "male_toilets_count": 12,
+        "female_toilets_count": 11,
+        "unisex_toilet_count": 14,
+        "total_count": 37
+    },
+    {
+        "id": 1004737,
+        "name": "Colombo House (B16)",
+        "male_toilets_count": 1,
+        "female_toilets_count": 1,
+        "unisex_toilet_count": 1,
+        "total_count": 3
+    },
+    {
+        "id": 1004738,
+        "name": "Quadrangle (E15)",
+        "male_toilets_count": 24,
+        "female_toilets_count": 34,
+        "unisex_toilet_count": 7,
+        "total_count": 65
+    },
+    {
+        "id": 1004739,
+        "name": "Biological Sciences North (D26)",
+        "male_toilets_count": 18,
+        "female_toilets_count": 18,
+        "unisex_toilet_count": 13,
+        "total_count": 49
+    },
+    {
+        "id": 1004740,
+        "name": "Biological Sciences South (E26)",
+        "male_toilets_count": 12,
+        "female_toilets_count": 15,
+        "unisex_toilet_count": 8,
+        "total_count": 35
+    },
+    {
+        "id": 1004741,
+        "name": "Samuels (F25)",
+        "male_toilets_count": 11,
+        "female_toilets_count": 13,
+        "unisex_toilet_count": 5,
+        "total_count": 29
+    },
+    {
+        "id": 1004742,
+        "name": "Solar Industrial Research Facility (SIRF) (G23)",
+        "male_toilets_count": 2,
+        "female_toilets_count": 2,
+        "unisex_toilet_count": 1,
+        "total_count": 5
+    },
+    {
+        "id": 1004743,
+        "name": "Vallentine Annexe (H22)",
+        "male_toilets_count": 3,
+        "female_toilets_count": 3,
+        "unisex_toilet_count": 2,
+        "total_count": 8
+    },
+    {
+        "id": 1004828,
+        "name": "Morven Brown (C20)",
+        "male_toilets_count": 23,
+        "female_toilets_count": 21,
+        "unisex_toilet_count": 4,
+        "total_count": 48
+    },
+    {
+        "id": 1004830,
+        "name": "Willis Annexe (J18)",
+        "male_toilets_count": 2,
+        "female_toilets_count": 1,
+        "unisex_toilet_count": 2,
+        "total_count": 5
+    },
+    {
+        "id": 1004831,
+        "name": "Ainsworth Building (J17)",
+        "male_toilets_count": 5,
+        "female_toilets_count": 8,
+        "unisex_toilet_count": 5,
+        "total_count": 18
+    },
+    {
+        "id": 1004832,
+        "name": "Building K17",
+        "male_toilets_count": 16,
+        "female_toilets_count": 13,
+        "unisex_toilet_count": 2,
+        "total_count": 31
+    },
+    {
+        "id": 1004833,
+        "name": "Mathews Theatre",
+        "male_toilets_count": 2,
+        "female_toilets_count": 2,
+        "unisex_toilet_count": 0,
+        "total_count": 4
+    },
+    {
+        "id": 1004834,
+        "name": "Lowy Cancer Research Centre (C25)",
+        "male_toilets_count": 8,
+        "female_toilets_count": 8,
+        "unisex_toilet_count": 9,
+        "total_count": 25
+    },
+    {
+        "id": 1004837,
+        "name": "Rupert Myer",
+        "male_toilets_count": 13,
+        "female_toilets_count": 19,
+        "unisex_toilet_count": 7,
+        "total_count": 39
+    },
+    {
+        "id": 1004839,
+        "name": "Newton",
+        "male_toilets_count": 4,
+        "female_toilets_count": 6,
+        "unisex_toilet_count": 2,
+        "total_count": 12
+    },
+    {
+        "id": 1004840,
+        "name": "Old Main",
+        "male_toilets_count": 7,
+        "female_toilets_count": 8,
+        "unisex_toilet_count": 3,
+        "total_count": 18
+    },
+    {
+        "id": 1004842,
+        "name": "Tyree Energy Technologies Building (TETB)",
+        "male_toilets_count": 5,
+        "female_toilets_count": 6,
+        "unisex_toilet_count": 9,
+        "total_count": 20
+    },
+    {
+        "id": 1004867,
+        "name": "Keith Burrows Theatre (J14)",
+        "male_toilets_count": 1,
+        "female_toilets_count": 1,
+        "unisex_toilet_count": 1,
+        "total_count": 3
+    },
+    {
+        "id": 1004868,
+        "name": "Physics Theatre (K14)",
+        "male_toilets_count": 2,
+        "female_toilets_count": 4,
+        "unisex_toilet_count": 2,
+        "total_count": 8
+    },
+    {
+        "id": 1004872,
+        "name": "Building L5",
+        "male_toilets_count": 23,
+        "female_toilets_count": 29,
+        "unisex_toilet_count": 9,
+        "total_count": 61
+    },
+    {
+        "id": 1004893,
+        "name": "Bank (F22)",
+        "male_toilets_count": 3,
+        "female_toilets_count": 3,
+        "unisex_toilet_count": 0,
+        "total_count": 6
+    },
+    {
+        "id": 1004899,
+        "name": "Mathews Arcade (E24A)",
+        "male_toilets_count": 2,
+        "female_toilets_count": 3,
+        "unisex_toilet_count": 0,
+        "total_count": 5
+    },
+    {
+        "id": 1004900,
+        "name": "The Pavilions",
+        "male_toilets_count": 0,
+        "female_toilets_count": 0,
+        "unisex_toilet_count": 0,
+        "total_count": 0
+    },
+    {
+        "id": 1004902,
+        "name": "Sam Cracknell Pavilion (H8)",
+        "male_toilets_count": 2,
+        "female_toilets_count": 2,
+        "unisex_toilet_count": 4,
+        "total_count": 8
+    },
+    {
+        "id": 1004903,
+        "name": "Dangerous Goods Store (F17A)",
+        "male_toilets_count": 0,
+        "female_toilets_count": 0,
+        "unisex_toilet_count": 0,
+        "total_count": 0
+    },
+    {
+        "id": 1004904,
+        "name": "C15",
+        "male_toilets_count": 2,
+        "female_toilets_count": 2,
+        "unisex_toilet_count": 1,
+        "total_count": 5
+    },
+    {
+        "id": 1005682,
+        "name": "Fitness and Aquatic Centre (B5)",
+        "male_toilets_count": 14,
+        "female_toilets_count": 16,
+        "unisex_toilet_count": 1,
+        "total_count": 31
+    },
+    {
+        "id": 1005683,
+        "name": "Goldstein Hall (D16)",
+        "male_toilets_count": 2,
+        "female_toilets_count": 2,
+        "unisex_toilet_count": 1,
+        "total_count": 5
+    }
+]
