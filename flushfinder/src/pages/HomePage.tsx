@@ -4,7 +4,7 @@ import female_toilets from '../data/bathrooms/female_toilets.json';
 import male_toilets from '../data/bathrooms/male_toilets.json';
 import unisex_toilets from '../data/bathrooms/unisex_toilets.json';
 import buildings from '../data/buildings.json';
-import { useMap, Map, AdvancedMarker, Pin, APIProvider} from "@vis.gl/react-google-maps";
+import { useMap, Map, AdvancedMarker, APIProvider} from "@vis.gl/react-google-maps";
 import { Link } from 'react-router';
 import { Accessibility, Image, Mars, Venus } from 'lucide-react';
 
@@ -83,6 +83,22 @@ function Home() {
     <main className="flex-1 ml-14 md:ml-20">
       <div className="py-10 px-12 h-full flex flex-col gap-8">
         <h1 className="text-3xl font-serif font-semibold italic text-[#8E562E]"> Find the best seat in the house - before it's too late </h1>
+        <div className="flex mt-7 divide-x-2 divide-gray-300 text text-gray-600">
+                  <div className="flex items-center gap-1 pr-2">
+                    <span>Female</span>
+                    <div className="w-5 h-5 bg-pink-500 rounded-full border-2 border-white shadow-md"></div>
+                  </div>
+
+                  <div className="flex items-center gap-1 px-2">
+                  <span>Male</span>
+                    <div className="w-5 h-5 bg-blue-500 rounded-full border-2 border-white shadow-md"></div>
+                  </div>
+
+                  <div className="flex items-center gap-1 pl-2">
+                  <span>Disabled</span>
+                    <div className="w-5 h-5 bg-green-500 rounded-full border-2 border-white shadow-md"></div>
+                  </div>
+                </div> 
         <div className="flex flex-1 h-full">
           <div className="flex-1 shadow-xl border-2 border-gray-200">
             <APIProvider apiKey={GM_API_KEY} libraries={["marker"]}>
@@ -130,13 +146,13 @@ function Home() {
               </Map>
             </APIProvider>
           </div>
-          <div className="h-full aspect-square divide-dashed divide-gray-300 shadow-2xl rounded-md">
-            {buildings.filter((b) => b.id === buildingId).map((building) =>
+          <div>
+          {buildings.filter((b) => b.id === buildingId).map((building) =>
               <Link
                 role='button'
                 to={`/ratings/${building.id}`}
                 key={building.id}
-                className="bg-gray-100 px-5 py-6 hover:shadow-md transition delay-75 flex flex-col gap-4 border-2 border-gray-200"
+                className="w-80 h-full bg-white-100 px-5 py-6 hover:shadow-md transition delay-75 flex flex-col gap-4 border-2 border-gray-200"
               >
                 <div className="w-full h-40 bg-gray-300 rounded-sm flex justify-center items-center">
                   <Image color='gray' />
@@ -160,7 +176,7 @@ function Home() {
                 </div> 
                 <p className="text-sm mt-9 text-gray-500">See all reviews</p>
               </Link>
-            )}
+          )}
           </div>
         </div>
       </div>
