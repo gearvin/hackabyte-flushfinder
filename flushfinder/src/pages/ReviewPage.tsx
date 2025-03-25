@@ -1,15 +1,18 @@
-import { Accessibility, Image, Mars, Venus } from 'lucide-react';
+import { Accessibility, Image, Mars, SquarePen, Venus } from 'lucide-react';
+import { useState } from 'react';
 import { useParams } from 'react-router';
+import Modal from '../components/Modal';
 
 function ReviewPage() {
+  const [isOpen, setIsOpen] = useState(false);
   const { id } = useParams<{ id: string }>();
 
   return (
     <div className="flex-1 ml-14 md:ml-20">
-      <div className="relative mx-auto max-w-3xl px-6">
+      <div className="relative mx-auto max-w-4xl px-10">
         {/* holder */}
         <div
-          className="absolute w-full h-14 bg-gray-700 top-[250px] left-0 z-0 rounded-xl"
+          className="absolute w-full h-20 bg-gray-700 top-[250px] left-0 z-0 rounded-xl"
         ></div>
 
         {/* roll */}
@@ -22,7 +25,7 @@ function ReviewPage() {
                 <span className="absolute text-gray-300 text-xl">★★★★★</span>
                 <span
                   className="absolute text-yellow-700 text-xl overflow-hidden"
-                  style={{ width: `${(4.5 / 5) * 100}%` }}
+                  style={{ width: `${(1.5 / 5) * 100}%` }}
                 >
                   ★★★★★
                 </span>
@@ -56,7 +59,26 @@ function ReviewPage() {
                 </div>
               </div>
             </div>
-            <p className="text-xl font-serif font-semibold italic">Reviews (24)</p>
+            <div className="flex items-center gap-4">
+              <p className="text-xl font-serif font-semibold italic">Reviews (24)</p>
+              <select className="flex-1 h-10 p-2 border rounded-xl border-gray-400 outline-[#8E562E] bg-white">
+                <option value="newest">Newest</option>
+                <option value="oldest">Oldest</option>
+                <option value="highest">Highest rating</option>
+                <option value="lowest">Lowest rating</option>
+              </select>
+              <button
+                role='button'
+                className="font-medium h-10 px-4 rounded-xl text-white bg-[#8E562E] flex gap-2 justify-center items-center hover:bg-amber-900 hover:cursor-pointer"
+                onClick={() => setIsOpen(true)}
+              >
+                <SquarePen />
+                <span>
+                  Leave a review!
+                </span>
+              </button>
+              
+            </div>
           </div>
 
           {/* reviews */}
@@ -75,6 +97,10 @@ function ReviewPage() {
           <div className="min-h-[200px] bg-gray-100"></div>
         </div>
       </div>
+      <Modal
+        isOpen={isOpen}
+        onClose={() => setIsOpen(false)}
+      />
     </div>
   );
 }

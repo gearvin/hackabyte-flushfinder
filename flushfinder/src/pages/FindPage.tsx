@@ -86,38 +86,37 @@ function FindPage() {
       <div className="mx-auto max-w-6xl py-10 px-6">
         <h1 className="text-3xl font-semibold italic font-serif text-[#8E562E]">The Directory</h1>
         <h2 className="text-gray-500 text-lg">Browse at your leisure...</h2>
-        <div className="w-full mt-10 space-y-4">
-          <div className="flex gap-4 flex-col md:flex-row">
+        <div className="w-full mt-10 space-y-2">
+          <div className="flex gap-2 flex-col md:flex-row">
             <input
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.currentTarget.value)}
               placeholder='Search...'
-              className="flex-1 px-4 py-2 border rounded border-gray-400 outline-[#8E562E] bg-white"
+              className="flex-1 px-4 py-1 border-2 rounded border-gray-300 outline-[#8E562E] bg-white"
             />
-            <div className="flex gap-4">
-              <select
-                className="w-[150px] h-10 px-2 border rounded border-gray-400 outline-[#8E562E]"
-                value={sortOption}
-                onChange={(e) => setSortOption(e.currentTarget.value)}
-              >
-                <option value="name">Name (A-Z)</option>
-                <option value="building">Building (A-Z)</option>
-                <option value="highest-rating">Highest Rating</option>
-                <option value="lowest-rating">Lowest Rating</option>
-                <option value="most-reviewed">Most Reviewed</option>
-                <option value="least-reviewed">Least Reviewed</option>
-              </select>
-            </div>
+            <select
+              className="w-[200px] h-10 px-2 border-2 rounded border-gray-300 outline-[#8E562E]"
+              value={sortOption}
+              onChange={(e) => setSortOption(e.currentTarget.value)}
+            >
+              <option value="name">Name (A-Z)</option>
+              <option value="building">Building (A-Z)</option>
+              <option value="highest-rating">Highest Rating</option>
+              <option value="lowest-rating">Lowest Rating</option>
+              <option value="most-reviewed">Most Reviewed</option>
+              <option value="least-reviewed">Least Reviewed</option>
+            </select>
+
 
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 rounded-sm gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 rounded-sm gap-1">
             {filteredData.map(toilet => (
               <Link
                 role='button'
                 to={`/ratings/${toilet.id}`}
                 key={toilet.id}
-                className="bg-gray-50 px-5 py-6 hover:shadow-md transition delay-75 flex flex-col gap-4 border-2 border-gray-200"
+                className="bg-gray-100 px-5 py-6 hover:shadow-md transition delay-75 flex flex-col gap-4 border-2 border-gray-200"
               >
                 <div className="w-full h-40 bg-gray-300 rounded-sm flex justify-center items-center">
                   <Image color='gray' />
