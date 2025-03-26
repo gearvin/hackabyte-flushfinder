@@ -73,7 +73,7 @@ function ReviewPage() {
 
   return (
     <div className="flex-1 ml-14 md:ml-20">
-      <div className="relative mx-auto max-w-4xl px-8">
+      <div className="relative mx-auto max-w-4xl px-8 py-5">
         {/* holder */}
         <div
           className="absolute w-full h-20 bg-gray-700 top-[250px] left-0 z-0 rounded-xl"
