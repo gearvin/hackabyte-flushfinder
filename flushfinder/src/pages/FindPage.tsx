@@ -1,75 +1,64 @@
 import { Accessibility, Image, ListFilter, Mars, Venus } from 'lucide-react';
-import React, { ChangeEvent, useState } from 'react'
+import React, { ChangeEvent, useEffect, useState } from 'react'
 import { Link } from 'react-router';
+import buildingData from '../data/buildings.json'
+import { useQuery } from '@tanstack/react-query';
+import axios from 'axios';
 
-const mockData = [
-  {
-    id: 1,
-    name: "Law Building (F8)",
-    building: "Law Building (F8), Floor G",
-    rating: 2.45,
-    accessibility: "All",
-    numReviews: 15,
-  },
-  {
-    id: 2,
-    name: "GQ7",
-    building: "Law Building (F8), Floor G",
-    rating: 3.17,
-    accessibility: "Female",
-    numReviews: 4,
-  },
-  {
-    id: 3,
-    name: "247",
-    building: "Chemical Sciences (F10), Floor L2",
-    rating: 3.52,
-    accessibility: "Male",
-    numReviews: 7,
-  },
-  {
-    id: 4,
-    name: "6Q13",
-    building: "UNSW Business School (E12), Floor L6",
-    rating: 2.12,
-    accessibility: "Male",
-    numReviews: 3,
-  },
-  {
-    id: 5,
-    name: "799A",
-    building: "Library (F21), Floor 7",
-    rating: 4.04,
-    accessibility: "Male",
-    numReviews: 8,
-  },
-]
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5300/api';
 
 function FindPage() {
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [sortOption, setSortOption] = useState("none")
+  
+  const { isPending, isError, data, error } = useQuery({
+    queryKey: [' buildings'],
+    queryFn: async () => {
+      const response = await axios.get(`${API_URL}/buildings`, {
+        headers: {
+          'x-api-key': 'toilet-finder-api-key-hackathon-2025'
+        }
+      })
+      return response.data
+    },
+    
+  });
+
+  useEffect(() => {
+    if (data) {
+      console.log(data)
+    }
+  }, [isPending, data])
+
+  if (isPending) {
+    return <span>Loading...</span>
+  }
+
+  if (isError) {
+    return <span>Error: {error.message}</span>
+  }
   // const [filteredData, setFilteredData] = useState(mockData);
 
-  const filteredData = mockData.filter(toilet => {
+  const filteredData = data.filter(building => {
     const query = searchQuery.toLowerCase();
     return (
-      toilet.name.toLowerCase().includes(query) ||
-      toilet.building.toLowerCase().includes(query)
+      building.name.toLowerCase().includes(query) ||
+      building.building.toLowerCase().includes(query)
     )
   }).sort((a, b) => {
     switch (sortOption) {
       case "name":
         return a.name.localeCompare(b.name);
-      case "building":
-        return a.building.localeCompare(b.building);
+      // case "building":
+      //   return a.building.localeCompare(b.building);
       case "highest-rating":
-        return b.rating - a.rating;
+        return b.average_overall - a.average_overall;
       case "lowest-rating":
-          return a.rating - b.rating;
+          return a.average_overall - b.average_overall;
       case "most-reviewed":
-        return b.numReviews - a.numReviews;
+        return b.reviews_count - a.reviews_count;
       case "least-reviewed":
-          return a.numReviews - b.numReviews;
+          return a.reviews_count - b.reviews_count;
       default:
         return 0
     }
@@ -101,7 +90,7 @@ function FindPage() {
               onChange={(e) => setSortOption(e.currentTarget.value)}
             >
               <option value="name">Name (A-Z)</option>
-              <option value="building">Building (A-Z)</option>
+              {/* <option value="building">Building (A-Z)</option> */}
               <option value="highest-rating">Highest Rating</option>
               <option value="lowest-rating">Lowest Rating</option>
               <option value="most-reviewed">Most Reviewed</option>
@@ -111,34 +100,50 @@ function FindPage() {
 
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 rounded-sm gap-1">
-            {filteredData.map(toilet => (
+            {filteredData.map(building => (
               <Link
                 role='button'
-                to={`/ratings/${toilet.id}`}
-                key={toilet.id}
+                to={`/ratings/${building.id}`}
+                key={building.id}
                 className="bg-gray-100 px-5 py-6 hover:shadow-md transition delay-75 flex flex-col gap-4 border-2 border-gray-200"
               >
                 <div className="w-full h-40 bg-gray-300 rounded-sm flex justify-center items-center">
                   <Image color='gray' />
                 </div>
                 <div>
-                  <div className="flex justify-between">
-                    <p className="font-medium text-lg">{toilet.name}</p>
-                    {toilet.accessibility === "All" && <Accessibility />}
-                    {toilet.accessibility === "Male" && <Mars color='lightblue' />}
-                    {toilet.accessibility === "Female" && <Venus color='pink' />}
+                  <p className="font-medium text-lg">{building.name}</p>
+                  {/* <div className="flex justify-between">
+                    {building.accessibility === "All" && <Accessibility />}
+                    {building.accessibility === "Male" && <Mars color='lightblue' />}
+                    {building.accessibility === "Female" && <Venus color='pink' />}
+                  </div> */}
+                  <div className="flex divide-x-2 divide-gray-300 text text-gray-600">
+                    <div className="flex items-center gap-1 pr-2">
+                      <span>{building.unisex_toilet_count}</span>
+                      <Accessibility className="text-gray-600" size={20} />
+                    </div>
+
+                    <div className="flex items-center gap-1 px-2">
+                      <span>{building.male_toilets_count}</span>
+                      <Mars className="text-blue-300" size={20} />
+                    </div>
+
+                    <div className="flex items-center gap-1 pl-2">
+                      <span>{building.female_toilets_count}</span>
+                      <Venus className="text-pink-300" size={20} />
+                    </div>
                   </div>
-                  <p className="text-gray-600">{toilet.building}</p>
+                  {/* <p className="text-gray-600">{building.building}</p> */}
                   <div className="relative mt-2 w-[100px]">
                     <span className="absolute text-gray-300 text-xl">★★★★★</span>
                     <span
                       className="absolute text-yellow-700 text-xl overflow-hidden"
-                      style={{ width: `${(toilet.rating / 5) * 100}%` }}
+                      style={{ width: `${(building.average_overall / 5) * 100}%` }}
                     >
                       ★★★★★
                     </span>
                   </div>
-                  <p className="text-sm mt-9 text-gray-500">See all {toilet.numReviews} reviews</p>
+                  <p className="text-sm mt-9 text-gray-500">See all {building.reviews_count} reviews</p>
                 </div>
               </Link>
             ))}

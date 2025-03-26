@@ -1,19 +1,50 @@
+import { useMutation, useQueryClient } from "@tanstack/react-query";
+import axios from "axios";
 import React, { useEffect, useRef } from "react";
 import { useForm } from "react-hook-form";
 
 interface ModalProps {
+  id: number;
   isOpen: boolean;
   onClose: () => void;
 }
 
-const Modal = ({ isOpen, onClose }: ModalProps) => {
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5300/api';
+
+const Modal = ({ id, isOpen, onClose }: ModalProps) => {
   const dialogRef = useRef<HTMLDialogElement>(null);
+  const queryClient = useQueryClient();
 
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
+
+  const { mutate } = useMutation({
+    mutationFn: async (data: any) => {
+      if (!id) {
+        throw new Error("id is undefined");
+      }
+      const response = await axios.post(
+        `${API_URL}/toilets/${id}/reviews`,
+        data,
+        {
+          headers: {
+            "x-api-key": "toilet-finder-api-key-hackathon-2025",
+          },
+        }
+      );
+      return response.data;
+    },
+    onSuccess: (data) => {
+      queryClient.invalidateQueries({ queryKey: ["reviews", id] });
+      onClose();
+    },
+    onError: (error) => {
+      console.error(error);
+    },
+  });
 
   const handleClose = () => {
     if (dialogRef.current) {
@@ -24,15 +55,18 @@ const Modal = ({ isOpen, onClose }: ModalProps) => {
 
   const onSubmit = (data: any) => {
     const formattedData = {
+      title: data.title,
       reviewer_nickname: data.reviewer_nickname || "Anonymous",
       cleanliness_rating: parseInt(data.cleanliness_rating),
       accessibility_rating: parseInt(data.accessibility_rating),
       overall_rating: parseInt(data.overall_rating),
       comment: data.comment,
+      type: parseInt(data.type),
     };
 
     console.log("Form Submitted:", formattedData);
-    handleClose();
+
+    mutate(formattedData); // Trigger the mutation when the form is submitted
   };
 
   useEffect(() => {
@@ -128,6 +162,25 @@ const Modal = ({ isOpen, onClose }: ModalProps) => {
           />
           {errors.overall_rating && (
             <p className="text-red-500 text-sm">{errors.overall_rating.message}</p>
+          )}
+        </div>
+
+        <div>
+          <select
+            {...register("type", {
+              required: "Type is required",
+              min: 1,
+              max: 3,
+            })}
+            className="w-full px-4 py-2 border rounded-md"
+          >
+            <option value="" disabled>Select Gender</option>
+            <option value={1}>Disabled</option>
+            <option value={2}>Female</option>
+            <option value={3}>Male</option>
+          </select>
+          {errors.type && (
+            <p className="text-red-500 text-sm">{errors.type.message}</p>
           )}
         </div>
 

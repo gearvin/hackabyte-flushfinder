@@ -5,7 +5,11 @@
         "male_toilets_count": 11,
         "female_toilets_count": 10,
         "unisex_toilet_count": 11,
-        "total_count": 32
+        "total_count": 32,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 907,
@@ -13,7 +17,11 @@
         "male_toilets_count": 30,
         "female_toilets_count": 27,
         "unisex_toilet_count": 10,
-        "total_count": 67
+        "total_count": 67,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1002189,
@@ -21,7 +29,11 @@
         "male_toilets_count": 0,
         "female_toilets_count": 0,
         "unisex_toilet_count": 0,
-        "total_count": 0
+        "total_count": 0,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1002191,
@@ -29,7 +41,11 @@
         "male_toilets_count": 10,
         "female_toilets_count": 10,
         "unisex_toilet_count": 9,
-        "total_count": 29
+        "total_count": 29,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1002192,
@@ -37,7 +53,11 @@
         "male_toilets_count": 16,
         "female_toilets_count": 16,
         "unisex_toilet_count": 9,
-        "total_count": 41
+        "total_count": 41,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1002231,
@@ -45,7 +65,11 @@
         "male_toilets_count": 2,
         "female_toilets_count": 3,
         "unisex_toilet_count": 2,
-        "total_count": 7
+        "total_count": 7,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004168,
@@ -53,7 +77,11 @@
         "male_toilets_count": 16,
         "female_toilets_count": 15,
         "unisex_toilet_count": 10,
-        "total_count": 41
+        "total_count": 41,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004169,
@@ -61,7 +89,11 @@
         "male_toilets_count": 2,
         "female_toilets_count": 1,
         "unisex_toilet_count": 1,
-        "total_count": 4
+        "total_count": 4,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004170,
@@ -69,7 +101,11 @@
         "male_toilets_count": 12,
         "female_toilets_count": 16,
         "unisex_toilet_count": 8,
-        "total_count": 36
+        "total_count": 36,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004171,
@@ -77,7 +113,11 @@
         "male_toilets_count": 7,
         "female_toilets_count": 8,
         "unisex_toilet_count": 1,
-        "total_count": 16
+        "total_count": 16,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004172,
@@ -85,7 +125,11 @@
         "male_toilets_count": 7,
         "female_toilets_count": 8,
         "unisex_toilet_count": 2,
-        "total_count": 17
+        "total_count": 17,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004173,
@@ -93,7 +137,11 @@
         "male_toilets_count": 2,
         "female_toilets_count": 5,
         "unisex_toilet_count": 1,
-        "total_count": 8
+        "total_count": 8,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004174,
@@ -101,7 +149,11 @@
         "male_toilets_count": 10,
         "female_toilets_count": 10,
         "unisex_toilet_count": 9,
-        "total_count": 29
+        "total_count": 29,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004176,
@@ -109,7 +161,11 @@
         "male_toilets_count": 6,
         "female_toilets_count": 8,
         "unisex_toilet_count": 3,
-        "total_count": 17
+        "total_count": 17,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004187,
@@ -117,7 +173,11 @@
         "male_toilets_count": 4,
         "female_toilets_count": 4,
         "unisex_toilet_count": 4,
-        "total_count": 12
+        "total_count": 12,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004188,
@@ -125,7 +185,11 @@
         "male_toilets_count": 0,
         "female_toilets_count": 0,
         "unisex_toilet_count": 0,
-        "total_count": 0
+        "total_count": 0,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004189,
@@ -133,7 +197,11 @@
         "male_toilets_count": 10,
         "female_toilets_count": 13,
         "unisex_toilet_count": 10,
-        "total_count": 33
+        "total_count": 33,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004190,
@@ -141,7 +209,11 @@
         "male_toilets_count": 0,
         "female_toilets_count": 0,
         "unisex_toilet_count": 1,
-        "total_count": 1
+        "total_count": 1,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004191,
@@ -149,7 +221,11 @@
         "male_toilets_count": 1,
         "female_toilets_count": 1,
         "unisex_toilet_count": 2,
-        "total_count": 4
+        "total_count": 4,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004193,
@@ -157,7 +233,11 @@
         "male_toilets_count": 8,
         "female_toilets_count": 7,
         "unisex_toilet_count": 2,
-        "total_count": 17
+        "total_count": 17,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004194,
@@ -165,7 +245,11 @@
         "male_toilets_count": 1,
         "female_toilets_count": 2,
         "unisex_toilet_count": 2,
-        "total_count": 5
+        "total_count": 5,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004195,
@@ -173,7 +257,11 @@
         "male_toilets_count": 7,
         "female_toilets_count": 5,
         "unisex_toilet_count": 1,
-        "total_count": 13
+        "total_count": 13,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004541,
@@ -181,7 +269,11 @@
         "male_toilets_count": 16,
         "female_toilets_count": 22,
         "unisex_toilet_count": 8,
-        "total_count": 46
+        "total_count": 46,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004731,
@@ -189,7 +281,11 @@
         "male_toilets_count": 1,
         "female_toilets_count": 1,
         "unisex_toilet_count": 1,
-        "total_count": 3
+        "total_count": 3,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004733,
@@ -197,7 +293,11 @@
         "male_toilets_count": 5,
         "female_toilets_count": 7,
         "unisex_toilet_count": 3,
-        "total_count": 15
+        "total_count": 15,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004734,
@@ -205,7 +305,11 @@
         "male_toilets_count": 2,
         "female_toilets_count": 4,
         "unisex_toilet_count": 2,
-        "total_count": 8
+        "total_count": 8,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004736,
@@ -213,7 +317,11 @@
         "male_toilets_count": 12,
         "female_toilets_count": 11,
         "unisex_toilet_count": 14,
-        "total_count": 37
+        "total_count": 37,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004737,
@@ -221,7 +329,11 @@
         "male_toilets_count": 1,
         "female_toilets_count": 1,
         "unisex_toilet_count": 1,
-        "total_count": 3
+        "total_count": 3,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004738,
@@ -229,7 +341,11 @@
         "male_toilets_count": 24,
         "female_toilets_count": 34,
         "unisex_toilet_count": 7,
-        "total_count": 65
+        "total_count": 65,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004739,
@@ -237,7 +353,11 @@
         "male_toilets_count": 18,
         "female_toilets_count": 18,
         "unisex_toilet_count": 13,
-        "total_count": 49
+        "total_count": 49,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004740,
@@ -245,7 +365,11 @@
         "male_toilets_count": 12,
         "female_toilets_count": 15,
         "unisex_toilet_count": 8,
-        "total_count": 35
+        "total_count": 35,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004741,
@@ -253,7 +377,11 @@
         "male_toilets_count": 11,
         "female_toilets_count": 13,
         "unisex_toilet_count": 5,
-        "total_count": 29
+        "total_count": 29,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004742,
@@ -261,7 +389,11 @@
         "male_toilets_count": 2,
         "female_toilets_count": 2,
         "unisex_toilet_count": 1,
-        "total_count": 5
+        "total_count": 5,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004743,
@@ -269,7 +401,11 @@
         "male_toilets_count": 3,
         "female_toilets_count": 3,
         "unisex_toilet_count": 2,
-        "total_count": 8
+        "total_count": 8,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004828,
@@ -277,7 +413,11 @@
         "male_toilets_count": 23,
         "female_toilets_count": 21,
         "unisex_toilet_count": 4,
-        "total_count": 48
+        "total_count": 48,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004830,
@@ -285,7 +425,11 @@
         "male_toilets_count": 2,
         "female_toilets_count": 1,
         "unisex_toilet_count": 2,
-        "total_count": 5
+        "total_count": 5,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004831,
@@ -293,7 +437,11 @@
         "male_toilets_count": 5,
         "female_toilets_count": 8,
         "unisex_toilet_count": 5,
-        "total_count": 18
+        "total_count": 18,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004832,
@@ -301,7 +449,11 @@
         "male_toilets_count": 16,
         "female_toilets_count": 13,
         "unisex_toilet_count": 2,
-        "total_count": 31
+        "total_count": 31,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004833,
@@ -309,7 +461,11 @@
         "male_toilets_count": 2,
         "female_toilets_count": 2,
         "unisex_toilet_count": 0,
-        "total_count": 4
+        "total_count": 4,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004834,
@@ -317,7 +473,11 @@
         "male_toilets_count": 8,
         "female_toilets_count": 8,
         "unisex_toilet_count": 9,
-        "total_count": 25
+        "total_count": 25,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004837,
@@ -325,7 +485,11 @@
         "male_toilets_count": 13,
         "female_toilets_count": 19,
         "unisex_toilet_count": 7,
-        "total_count": 39
+        "total_count": 39,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004839,
@@ -333,7 +497,11 @@
         "male_toilets_count": 4,
         "female_toilets_count": 6,
         "unisex_toilet_count": 2,
-        "total_count": 12
+        "total_count": 12,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004840,
@@ -341,7 +509,11 @@
         "male_toilets_count": 7,
         "female_toilets_count": 8,
         "unisex_toilet_count": 3,
-        "total_count": 18
+        "total_count": 18,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004842,
@@ -349,7 +521,11 @@
         "male_toilets_count": 5,
         "female_toilets_count": 6,
         "unisex_toilet_count": 9,
-        "total_count": 20
+        "total_count": 20,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004867,
@@ -357,7 +533,11 @@
         "male_toilets_count": 1,
         "female_toilets_count": 1,
         "unisex_toilet_count": 1,
-        "total_count": 3
+        "total_count": 3,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004868,
@@ -365,7 +545,11 @@
         "male_toilets_count": 2,
         "female_toilets_count": 4,
         "unisex_toilet_count": 2,
-        "total_count": 8
+        "total_count": 8,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004872,
@@ -373,7 +557,11 @@
         "male_toilets_count": 23,
         "female_toilets_count": 29,
         "unisex_toilet_count": 9,
-        "total_count": 61
+        "total_count": 61,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004893,
@@ -381,7 +569,11 @@
         "male_toilets_count": 3,
         "female_toilets_count": 3,
         "unisex_toilet_count": 0,
-        "total_count": 6
+        "total_count": 6,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004899,
@@ -389,7 +581,11 @@
         "male_toilets_count": 2,
         "female_toilets_count": 3,
         "unisex_toilet_count": 0,
-        "total_count": 5
+        "total_count": 5,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004900,
@@ -397,7 +593,11 @@
         "male_toilets_count": 0,
         "female_toilets_count": 0,
         "unisex_toilet_count": 0,
-        "total_count": 0
+        "total_count": 0,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004902,
@@ -405,7 +605,11 @@
         "male_toilets_count": 2,
         "female_toilets_count": 2,
         "unisex_toilet_count": 4,
-        "total_count": 8
+        "total_count": 8,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004903,
@@ -413,7 +617,11 @@
         "male_toilets_count": 0,
         "female_toilets_count": 0,
         "unisex_toilet_count": 0,
-        "total_count": 0
+        "total_count": 0,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1004904,
@@ -421,7 +629,11 @@
         "male_toilets_count": 2,
         "female_toilets_count": 2,
         "unisex_toilet_count": 1,
-        "total_count": 5
+        "total_count": 5,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1005682,
@@ -429,7 +641,11 @@
         "male_toilets_count": 14,
         "female_toilets_count": 16,
         "unisex_toilet_count": 1,
-        "total_count": 31
+        "total_count": 31,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     },
     {
         "id": 1005683,
@@ -437,6 +653,10 @@
         "male_toilets_count": 2,
         "female_toilets_count": 2,
         "unisex_toilet_count": 1,
-        "total_count": 5
+        "total_count": 5,
+        "average_overall": 0,
+        "average_cleanliness": 0,
+        "average_accessibility": 0,
+        "reviews_count": 0
     }
 ]

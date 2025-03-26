@@ -18,9 +18,9 @@ function Sidebar() {
         <Link role="button" to="/top" className="size-12 flex items-center justify-center rounded-md hover:bg-gray-300" >
           <Trophy color='#8E562E' />
         </Link>
-        <Link role="button" to="/add" className="size-12 flex items-center justify-center rounded-md hover:bg-gray-300" >
+        {/* <Link role="button" to="/add" className="size-12 flex items-center justify-center rounded-md hover:bg-gray-300" >
           <Plus color='#8E562E' />
-        </Link>
+        </Link> */}
       </div>
     </nav>
   )

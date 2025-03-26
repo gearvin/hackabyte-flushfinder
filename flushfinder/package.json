@@ -12,7 +12,9 @@
   "dependencies": {
     "@googlemaps/react-wrapper": "^1.1.42",
     "@tailwindcss/vite": "^4.0.15",
+    "@tanstack/react-query": "^5.69.0",
     "@vis.gl/react-google-maps": "^1.5.2",
+    "axios": "^1.8.4",
     "lucide-react": "^0.483.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
