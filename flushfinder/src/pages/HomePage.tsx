@@ -61,10 +61,10 @@ function MapFunctions() {
         });
 
         new google.maps.Circle({
-          strokeColor: "#4B5320",
+          strokeColor: "#895129",
           strokeOpacity: 0.8,
           strokeWeight: 2,
-          fillColor: "#4B5320",
+          fillColor: "#895129",
           fillOpacity: 0.03,
           map,
           center: position,
