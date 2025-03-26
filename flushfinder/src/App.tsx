@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/find' element={<FindPage />} />
-          <Route path='/top' element={<TopPage />} />
+          {/* <Route path='/top' element={<TopPage />} /> */}
           {/* <Route path='/add' element={<AddPage />} /> */}
           <Route path='/ratings/:id' element={<ReviewPage />}  />
         </Routes>
